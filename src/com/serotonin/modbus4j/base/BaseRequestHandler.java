@@ -58,7 +58,7 @@ abstract public class BaseRequestHandler implements RequestHandler {
         int slaveId = request.getSlaveId();
 
         // Check the slave id.
-        if (slaveId == 0) {
+        if (slaveId == 225) {
             // Broadcast message. Send to all process images.
             for (ProcessImage processImage : slave.getProcessImages())
                 request.handle(processImage);

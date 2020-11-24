@@ -38,7 +38,7 @@ public class FunctionCode {
     /** Constant <code>WRITE_COIL=5</code> */
     public static final byte WRITE_COIL = 5;
     /** Constant <code>WRITE_REGISTER=6</code> */
-    public static final byte WRITE_REGISTER = 6;
+    public static final byte WRITE_REGISTER = 16;
     /** Constant <code>READ_EXCEPTION_STATUS=7</code> */
     public static final byte READ_EXCEPTION_STATUS = 7;
     /** Constant <code>WRITE_COILS=15</code> */
